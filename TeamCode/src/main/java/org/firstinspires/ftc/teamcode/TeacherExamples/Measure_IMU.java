@@ -1,6 +1,7 @@
 package org.firstinspires.ftc.teamcode.TeacherExamples;
 
 import com.qualcomm.hardware.rev.RevHubOrientationOnRobot;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.hardware.IMU;
@@ -8,8 +9,8 @@ import com.qualcomm.robotcore.hardware.ImuOrientationOnRobot;
 
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
-
-@TeleOp(name = "IMU Test", group = "Examples")
+@Disabled
+@TeleOp
 public class Measure_IMU extends LinearOpMode {
 
     @Override
