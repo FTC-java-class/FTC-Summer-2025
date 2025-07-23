@@ -8,7 +8,7 @@ import com.qualcomm.robotcore.hardware.DistanceSensor;
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 
 @Disabled
-@TeleOp
+@TeleOp(name = "DistanceSensors")
 public class DistanceSensors extends LinearOpMode {
 
     @Override

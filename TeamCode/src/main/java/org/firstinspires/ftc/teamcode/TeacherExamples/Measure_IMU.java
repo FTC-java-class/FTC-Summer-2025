@@ -10,7 +10,7 @@ import com.qualcomm.robotcore.hardware.ImuOrientationOnRobot;
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 @Disabled
-@TeleOp
+@TeleOp(name = "measureIMU")
 public class Measure_IMU extends LinearOpMode {
 
     @Override

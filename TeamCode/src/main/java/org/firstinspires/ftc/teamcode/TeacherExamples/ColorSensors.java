@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.hardware.NormalizedColorSensor;
 import com.qualcomm.robotcore.hardware.NormalizedRGBA;
 
 @Disabled
-@TeleOp
+@TeleOp(name = "ColorSensors")
 public class ColorSensors extends LinearOpMode {
 
     @Override

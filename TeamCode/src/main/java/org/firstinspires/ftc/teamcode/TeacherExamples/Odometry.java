@@ -10,7 +10,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 import org.firstinspires.ftc.robotcore.external.navigation.Pose2D;
 
 @Disabled
-@TeleOp
+@TeleOp(name = "Odometry")
 public class Odometry extends LinearOpMode {
 
     GoBildaPinpointDriver pinpoint;
