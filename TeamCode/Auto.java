@@ -30,13 +30,13 @@ public class OneMotor extends LinearOpMode {
                 Power = .8;
                 { if else (gamepad1.b) }
                 else{
-            }
+                }
                 Power = 0;
             }
             if (gamepad1.b){
                 Power = .5;
             }
-                Power = 0;
+            Power = 0;
 
             frontRight.setPower(Power);
             rearRight.setPower(Power);
